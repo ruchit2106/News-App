@@ -7,14 +7,13 @@ A mobile application responsible for current articles daily with filter options.
 ## Packages:
 
 <ul>
-<li> sqflite: ^2.0.0+3 </li>
-<li> intl: ^0.17.0 </li>
-<li>cupertino_icons: ^1.0.2</li>
-<li> font_awesome_flutter: ^10.1.0 </li>
-<li> path_provider: ^2.0.11 </li>
-<li> image_picker: ^0.8.5+3 </li>
-<li>share: ^2.0.1</li> 
-<li>contactus: ^1.2.0</li>
+<li>cached_network_image: ^3.2.1</li>
+<li>cupertino_icons: ^1.0.5</li>
+<li>flutter:sdk: flutter</li>
+<li>google_fonts: ^3.0.1</li>
+<li>http: ^0.13.4</li>
+<li>lint: ^1.8.2</li>
+<li>webview_flutter: ^3.0.4</li>
 </ul>
 
 ## Description:
