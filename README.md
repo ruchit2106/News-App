@@ -19,48 +19,28 @@ A mobile application responsible for current articles daily with filter options.
 ## Description:
 
 <ul>
-<li> CRUD Operations of the app was performed by building an SQFLite database. </li>
-<li> Clean Architecture was implements by dividing the app into sub-components:
+<li>Search Operation for the article is performed by first rewriting the api url and then executing it.</li>
+</ul>
+
+#### File Structure (lib folder)
 <ul>
-
-<li> model <ul>
-<li> category_model </li>
-<li> note_model </li>
+    <li>artical_news.dart</li>
+    <li>constants.dart</li>
+    <li>list_of_country.dart</li>
+    <li>main.dart</li>
 </ul>
-</li>
 
-<li> screens <ul>
-<li>Aboutus</li>
-<li> edit_note_screen </li>
-<li> notes_detail_screen </li>
-<li> notes_screen </li>
-<li> splash_screen </li>
-</ul>
-</li>
-
-<li> sqflite_database <ul>
-<li> db </li>
-</ul>
-</li>
-
-<li> widgets <ul>
-<li>main</li>
-</ul>
-</li>
-
-</ul> 
-</li></li>
-</ul>
 Comments in the code, helps for better understanding of how the app works.
 
 ## Features:
 
 <ul>
-<li>Add a new Note</li>
-<li>Update Note</li>
-<li>Delete Note</li>
-<li>Share a Note</li>
-<li>View All Notes</li>
+<li>Refresh Page</li>
+<li>Change Theme</li>
+<li>Search news by keyword</li>
+<li>Search news by country</li>
+<li>Search news by topics</li>
+<li>Search news by newschannels</li>
 </ul>
 
 ### To Run the App:
@@ -70,4 +50,3 @@ In the command terminal, run the following commands:
     $ flutter pub get
     $ flutter run
 
-#### Hello world
